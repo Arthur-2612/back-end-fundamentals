@@ -1,5 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ContaBancaria c1 = new ContaBancaria(1234, 0);
+
+        c1.depositar(100);
+        c1.sacar(30);
+
+        System.out.println(c1);
+
     }
 }
