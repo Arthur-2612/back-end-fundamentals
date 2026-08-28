@@ -1,44 +1,31 @@
 package Arquivo_back;
 
-public class Arquivo{
-    private String name;
-    private String content;
-    private int size;
+public class Arquivo {
+    String nome;
+    int tamanho;
+    String conteudo;
 
-    public void setName(String name){
-        this.name = name;
+    public Arquivo(String nome, int tamanho, String conteudo) {
+        this.nome = nome;
+        this.tamanho = tamanho;
+        this.conteudo = conteudo;
     }
 
-    public String getName(){
-        return this.name;
+    public void abrir() {
+        System.out.println("Arquivo " + nome + " aberto.");
     }
 
-    public void setContent(String content){
-        this.content = content;
+    public void editar(String novoConteudo) {
+        this.conteudo = novoConteudo;
     }
 
-    public String getContent(){
-        return this.content;
+    public void renomear(String novoNome) {
+        this.nome = novoNome;
     }
 
-    public void setSize(int size){
-        this.size = size;
-    }
-
-    public int getSize(){
-        return this.size;
-    }
-
-    public String open(){
-        return "Arquivo aberto";
-    }
-
-    public void edit(String newContent){
-        this.content = newContent;
-    }
-
-    public boolean rename(String newName){
-        this.name = newName;
-        return true;
+    public void mostrar() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Tamanho: " + tamanho + " bytes");
+        System.out.println("Conteúdo: " + conteudo);
     }
 }
