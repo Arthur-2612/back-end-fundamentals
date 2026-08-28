@@ -1,11 +1,33 @@
 package Arquivo_back;
 
 public class Arquivo{
-    String name;
-    int size;
-    String content;
+    private String name;
+    private String content;
+    private int size;
 
-    // metodos
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public void setContent(String content){
+        this.content = content;
+    }
+
+    public String getContent(){
+        return this.content;
+    }
+
+    public void setSize(int size){
+        this.size = size;
+    }
+
+    public int getSize(){
+        return this.size;
+    }
 
     public String open(){
         return "Arquivo aberto";
