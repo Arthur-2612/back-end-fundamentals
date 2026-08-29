@@ -21,6 +21,8 @@ public class App {
         arq1.rename(" arquivo apagado");
         arq1.clear();
         System.out.println(arq1.open());
+    
+        JOptionPane.showMessageDialog(null, arq1.getContent(), arq1.getName(), 1);
 
     }
 }
