@@ -1,48 +1,49 @@
 import models.File;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
+/**
+ * Ponto de entrada do Gerenciador de Arquivos em Memória.
+ * Demonstra a instanciação da classe models.File, operações de edição,
+ * renomeação e exibição tanto no console quanto via diálogo gráfico (JOptionPane).
+ */
 public class App {
+
     public static void main(String[] args) {
-       File arq1 = new File("Receita de pudim");
+        System.out.println("==================================================");
+        System.out.println("       GERENCIADOR DE ARQUIVOS EM MEMÓRIA         ");
+        System.out.println("==================================================");
 
+        // Criação do arquivo virtual
+        File arq1 = new File("receita_de_pudim.txt");
+        System.out.println("\n[1] Arquivo recém-criado:");
         System.out.println(arq1.open());
 
-        arq1.edit("Ingredientes: leite condensado, ovo, leite");
+        // Edição do conteúdo inicial
+        System.out.println("\n[2] Adicionando ingredientes...");
+        arq1.edit("Ingredientes: 1 lata de leite condensado, 3 ovos, 500ml de leite");
         System.out.println(arq1.open());
 
-        arq1.edit(", açucar, água.");
+        // Adicionando calda
+        System.out.println("\n[3] Adicionando calda...");
+        arq1.edit("\nCalda: 1 xícara de açúcar, 1/2 xícara de água.");
         System.out.println(arq1.open());
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Digite o modo de preparo do pudim: ");
-        arq1.edit(in.next());
+        // Renomeando arquivo com validação
+        System.out.println("\n[4] Renomeando o arquivo...");
+        boolean sucesso = arq1.rename("pudim_da_vovo.txt");
+        System.out.println("Renomeado com sucesso? " + sucesso);
         System.out.println(arq1.open());
 
-        arq1.rename(" arquivo apagado");
-        arq1.clear();
-        System.out.println(arq1.open());
-    
-        JOptionPane.showMessageDialog(null, arq1.getContent(), arq1.getName(), 1);
+        // Exibição em janela gráfica swing
+        System.out.println("\n[5] Apresentando resultado em janela de diálogo...");
+        JOptionPane.showMessageDialog(
+            null,
+            arq1.open(),
+            "Visualizador: " + arq1.getName(),
+            JOptionPane.INFORMATION_MESSAGE
+        );
 
+        System.out.println("Operação concluída com sucesso!");
     }
 }
-
-
-/*public class App {
-    public static void main(String[] args) {
-        Arquivo arquivo = new Arquivo("meuarquivo.txt", 1024, "Conteúdo do arquivo");
-
-        arquivo.mostrar();
-        arquivo.abrir();
-
-        arquivo.editar("Novo conteúdo do arquivo");
-        arquivo.renomear("novo_nome.txt");
-
-        System.out.println("Novo nome: " + arquivo.nome);
-        System.out.println("Novo conteúdo: " + arquivo.conteudo);
-    }
-}
-    */
-
-
-
