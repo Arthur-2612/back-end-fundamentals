@@ -57,3 +57,4 @@ public record ClienteRequestDTO(
    - (A) `200 OK`
    - (B) `404 Not Found` *(Correta)*
    - (C) `500 Internal Server Error`
+

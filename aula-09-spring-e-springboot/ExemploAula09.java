@@ -227,3 +227,4 @@ public class ExemploAula09 {
         System.out.println("\nArquitetura RESTful e ciclo de vida do Spring Boot demonstrados com clareza!");
     }
 }
+
