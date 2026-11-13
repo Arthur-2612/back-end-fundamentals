@@ -76,3 +76,4 @@ Desenvolva um programa que:
    - (A) Para calcular 2 vezes 3.
    - (B) Para calcular 2 elevado à potência 3 ($2^3 = 8$). *(Correta)*
    - (C) Para sortear um número entre 2 e 3.
+
