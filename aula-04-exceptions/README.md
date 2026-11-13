@@ -91,3 +91,4 @@ public void sacar(double valor) {
 - 🚫 **Nunca deixe um `catch` vazio** (`catch (Exception e) {}`). Isso engole o erro e impede a descoberta de bugs!
 - 🚫 **Evite capturar a classe genérica `Throwable` ou `Exception`** se puder capturar exceções específicas (`NumberFormatException`, `SQLException`).
 - ✅ **Sempre registre o erro** via log ou mensagem clara com contexto do que o usuário tentava fazer.
+

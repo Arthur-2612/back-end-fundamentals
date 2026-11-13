@@ -132,3 +132,4 @@ public class ExemploAula04 {
         System.out.println("\nO programa finalizou sem travar! Demonstração de resiliência concluída.");
     }
 }
+

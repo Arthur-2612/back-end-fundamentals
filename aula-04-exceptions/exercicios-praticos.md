@@ -55,3 +55,4 @@ Modele uma classe `Autenticador` que:
    - (A) Porque representam falhas graves e irrecuperáveis da Máquina Virtual Java (JVM) onde a memória ou integridade do sistema operacional se esgotou. *(Correta)*
    - (B) Porque o compilador proíbe a palavra Error.
    - (C) Porque eles não herdam de Throwable.
+
