@@ -64,3 +64,4 @@ Por que a operação acima é vantajosa?
    - (A) Para avisar o desenvolvedor e o compilador que estamos intencionalmente sobrescrevendo um método herdado da superclasse. *(Correta)*
    - (B) Para transformar um método em público.
    - (C) Para reiniciar a execução do programa.
+
