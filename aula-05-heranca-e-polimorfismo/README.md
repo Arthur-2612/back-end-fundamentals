@@ -89,3 +89,4 @@ O modificador `final` representa imutabilidade ou encerramento da hierarquia:
 | **Em Variáveis / Atributos** | O valor não pode ser reatribuído (constante) | `public static final double PI = 3.14159;` |
 | **Em Métodos** | O método **não pode ser sobrescrito** por subclasses | `public final void efetuarLogin() { ... }` |
 | **Em Classes** | A classe **não pode ter filhas** (ninguém pode dar `extends`) | `public final class String { ... }` |
+

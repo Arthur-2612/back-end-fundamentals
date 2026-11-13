@@ -85,3 +85,4 @@ public class CheckoutService {
    - (A) Para indicar que ela foi a última classe criada no projeto.
    - (B) Para proibir que outras classes herdem dela (`extends`). *(Correta)*
    - (C) Para deletar a classe quando o programa fechar.
+
