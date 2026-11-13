@@ -15,9 +15,9 @@
 
 O objetivo deste repositório é consolidar a jornada de aprendizado em desenvolvimento back-end com Java, partindo dos fundamentos filosóficos da Programação Orientada a Objetos (POO) até a construção de arquiteturas modernas em camadas com o framework **Spring Boot**.
 
-Cada módulo do curso conta com uma pasta individualizada contendo exatamente:
-1. 📘 **README.md:** Um guia teórico aprofundado ("resumão"), didático e ricamente documentado com diagramas conceituais.
-2. ☕ **Código Java Explicativo (`.java`):** Implementação prática, limpa e comentada linha a linha, pronta para compilação e execução.
+Cada módulo do curso conta com uma pasta individualizada contendo exatamente **3 arquivos**:
+1. 📘 **README.md:** Um guia teórico aprofundado ("resumão didático"), ricamente documentado com diagramas conceituais.
+2. ☕ **Código Java Explicativo (`.java`):** Implementação prática, limpa e comentada em todos os trechos, pronta para compilação e execução.
 3. 📝 **Caderno de Exercícios Práticos (`exercicios-praticos.md`):** Questões conceituais, desafios de código e gabaritos com soluções detalhadas.
 
 ---
@@ -57,13 +57,13 @@ Navegue diretamente pelos módulos de estudo utilizando os links abaixo:
 | Aula | Tema Central | Resumo Teórico | Código Comentado | Exercícios & Desafios |
 |:---:|---|:---:|:---:|:---:|
 | **01** | **Paradigma POO & Pilares** | [📘 Resumo Aula 01](aula-01-paradigma-poo/README.md) | [☕ ExemploAula01.java](aula-01-paradigma-poo/ExemploAula01.java) | [📝 Exercícios 01](aula-01-paradigma-poo/exercicios-praticos.md) |
-| **02** | **Classes, Construtores & Encapsulamento** | [📘 Resumo Aula 02](aula-02-classes-atributos-metodos/README.md) | [☕ ExemploAula02.java](aula-02-classes-atributos-metodos/ExemploAula02.java) | [📝 Exercícios 02](aula-02-classes-atributos-metodos/exercicios-praticos.md) |
-| **03** | **Classes Utilitárias: String, Math, Random & GUI** | [📘 Resumo Aula 03](aula-03-classes-java/README.md) | [☕ ExemploAula03.java](aula-03-classes-java/ExemploAula03.java) | [📝 Exercícios 03](aula-03-classes-java/exercicios-praticos.md) |
-| **04** | **Tratamento Defensivo de Exceções** | [📘 Resumo Aula 04](aula-04-tratamento-de-excecoes/README.md) | [☕ ExemploAula04.java](aula-04-tratamento-de-excecoes/ExemploAula04.java) | [📝 Exercícios 04](aula-04-tratamento-de-excecoes/exercicios-praticos.md) |
+| **02** | **Classes, Construtores & Encapsulamento** | [📘 Resumo Aula 02](aula-02-estrutura-de-uma-classe/README.md) | [☕ ExemploAula02.java](aula-02-estrutura-de-uma-classe/ExemploAula02.java) | [📝 Exercícios 02](aula-02-estrutura-de-uma-classe/exercicios-praticos.md) |
+| **03** | **Classes Utilitárias: String, Math, Random & GUI** | [📘 Resumo Aula 03](aula-03-classes-e-bibliotecas/README.md) | [☕ ExemploAula03.java](aula-03-classes-e-bibliotecas/ExemploAula03.java) | [📝 Exercícios 03](aula-03-classes-e-bibliotecas/exercicios-praticos.md) |
+| **04** | **Tratamento Defensivo de Exceções** | [📘 Resumo Aula 04](aula-04-exceptions/README.md) | [☕ ExemploAula04.java](aula-04-exceptions/ExemploAula04.java) | [📝 Exercícios 04](aula-04-exceptions/exercicios-praticos.md) |
 | **05** | **Herança, Classes Abstratas & Polimorfismo** | [📘 Resumo Aula 05](aula-05-heranca-e-polimorfismo/README.md) | [☕ ExemploAula05.java](aula-05-heranca-e-polimorfismo/ExemploAula05.java) | [📝 Exercícios 05](aula-05-heranca-e-polimorfismo/exercicios-praticos.md) |
-| **06** | **Java Collections Framework & Generics** | [📘 Resumo Aula 06](aula-06-collections-e-listas/README.md) | [☕ ExemploAula06.java](aula-06-collections-e-listas/ExemploAula06.java) | [📝 Exercícios 06](aula-06-collections-e-listas/exercicios-praticos.md) |
-| **07** | **Relacionamentos, UML & Cardinalidade** | [📘 Resumo Aula 07](aula-07-relacionamento-entre-classes/README.md) | [☕ ExemploAula07.java](aula-07-relacionamento-entre-classes/ExemploAula07.java) | [📝 Exercícios 07](aula-07-relacionamento-entre-classes/exercicios-praticos.md) |
-| **08** | **Padrão MVC, DAO & Persistência** | [📘 Resumo Aula 08](aula-08-arquitetura-mvc/README.md) | [☕ ExemploAula08.java](aula-08-arquitetura-mvc/ExemploAula08.java) | [📝 Exercícios 08](aula-08-arquitetura-mvc/exercicios-praticos.md) |
+| **06** | **Java Collections Framework & Generics** | [📘 Resumo Aula 06](aula-06-collections/README.md) | [☕ ExemploAula06.java](aula-06-collections/ExemploAula06.java) | [📝 Exercícios 06](aula-06-collections/exercicios-praticos.md) |
+| **07** | **Relacionamentos, UML & Cardinalidade** | [📘 Resumo Aula 07](aula-07-relacionamento-classes/README.md) | [☕ ExemploAula07.java](aula-07-relacionamento-classes/ExemploAula07.java) | [📝 Exercícios 07](aula-07-relacionamento-classes/exercicios-praticos.md) |
+| **08** | **Padrão MVC, DAO & Persistência** | [📘 Resumo Aula 08](aula-08-mvc-e-persistencia/README.md) | [☕ ExemploAula08.java](aula-08-mvc-e-persistencia/ExemploAula08.java) | [📝 Exercícios 08](aula-08-mvc-e-persistencia/exercicios-praticos.md) |
 | **09** | **Spring Boot, IoC, DI & APIs REST** | [📘 Resumo Aula 09](aula-09-spring-e-springboot/README.md) | [☕ ExemploAula09.java](aula-09-spring-e-springboot/ExemploAula09.java) | [📝 Exercícios 09](aula-09-spring-e-springboot/exercicios-praticos.md) |
 
 ---
