@@ -78,3 +78,4 @@ A cardinalidade define quantos objetos de um lado podem se relacionar com quanto
 3. **Muitos para Muitos (N : N):**  
    - Exemplo: Um `Aluno` cursa várias `Disciplinas`, e uma `Disciplina` possui vários `Alunos`.
    - Em Java: Ambos possuem listas mútuas (`List<Disciplina>` no Aluno e `List<Aluno>` na Disciplina).
+

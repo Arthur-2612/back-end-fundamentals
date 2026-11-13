@@ -69,3 +69,4 @@ classDiagram
    - (A) Herança múltipla.
    - (B) Dependência. *(Correta)*
    - (C) Composição reflexiva.
+
