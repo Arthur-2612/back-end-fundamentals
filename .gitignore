@@ -1,0 +1,27 @@
+# Java compiled binaries
+*.class
+bin/
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# Virtual Machine crash logs
+hs_err_pid*
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary exploration exports
+notion_exported/
