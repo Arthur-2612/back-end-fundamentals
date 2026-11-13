@@ -43,3 +43,4 @@ java Main
 | `Personagem.java` | Entidade que encapsula vida, atributos e método de ataque |
 | `Main.java` | Classe executável contendo o laço de batalha por turnos |
 | `README.md` | Documentação explicativa do projeto |
+

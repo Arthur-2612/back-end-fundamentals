@@ -168,3 +168,4 @@ class Retangulo extends FormaAnimada {
         }
     }
 }
+

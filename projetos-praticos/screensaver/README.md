@@ -33,3 +33,4 @@ java ScreenSaverApp
 |---|---|
 | `ScreenSaverApp.java` | Classe principal com janela Swing, loop de renderização e hierarquia de formas geométricas |
 | `README.md` | Documentação do mini-projeto |
+

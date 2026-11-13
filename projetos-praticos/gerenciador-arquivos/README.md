@@ -35,3 +35,4 @@ java App
 | `App.java` | Classe principal executável com testes e diálogo `JOptionPane` |
 | `Arquivo.java` | Versão inicial legada para estudo comparativo de evolução de código |
 | `README.md` | Documentação explicativa do projeto |
+
