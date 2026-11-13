@@ -59,3 +59,4 @@ Em aplicações reais, quando o programa é encerrado, todos os objetos na memó
 - **Fat Controller (Controller Gordo):** Colocar regras de negócio, cálculos e conexão com banco direto no Controller.
 - **Vazamento de Abstração:** Fazer a View falar diretamente com o Banco de Dados pulando o Service.
 - **God Class:** Uma única classe gigante de 3.000 linhas fazendo tudo no projeto.
+

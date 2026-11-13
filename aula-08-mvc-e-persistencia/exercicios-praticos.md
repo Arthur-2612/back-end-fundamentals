@@ -60,3 +60,4 @@ Expanda o projeto da Aula 08 implementando o fluxo de exclusão de tarefas:
    - (A) Porque como as regras de negócio estão isoladas no Service, podemos testá-las sem precisar abrir telas ou digitar no terminal. *(Correta)*
    - (B) Porque testes só rodam em arquivos chamados Model.
    - (C) Porque ele apaga o banco de dados a cada teste.
+
