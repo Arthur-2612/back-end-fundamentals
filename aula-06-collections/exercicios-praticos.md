@@ -59,3 +59,4 @@ Crie uma classe `EstoqueRepository` que gerencie produtos utilizando um `Map<Int
    - (A) Evitar erros de tipo (`ClassCastException`) em tempo de execução, garantindo verificação rigorosa já na compilação. *(Correta)*
    - (B) Deixar o código Java compilado compatível com JavaScript.
    - (C) Economizar espaço em disco no código-fonte.
+
