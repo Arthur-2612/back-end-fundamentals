@@ -139,3 +139,4 @@ classDiagram
 1. **O que é POO?** É um paradigma que modela sistemas a partir de entidades (objetos) que encapsulam estado (atributos) e comportamento (métodos).
 2. **Qual a diferença entre Classe e Objeto?** A classe é a descrição conceitual/molde estático; o objeto é a instância viva com dados alocados na memória heap.
 3. **Por que usar POO no Backend?** Porque simplifica a manutenção de sistemas corporativos complexos, facilita a criação de camadas (Controller, Service, Repository) e permite reaproveitar regras de negócio com facilidade.
+

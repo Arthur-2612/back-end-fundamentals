@@ -97,3 +97,4 @@ Modele uma classe `Aluno` que possua:
    - (A) Ambos compartilham exatamente o mesmo endereço de memória e as mesmas variáveis.
    - (B) Duas instâncias independentes são criadas no Heap, cada uma com seu próprio estado. *(Correta)*
    - (C) O compilador dá erro por duplicidade de variáveis.
+
