@@ -107,17 +107,6 @@ java Main
 
 ---
 
-## 📌 Padrão de Commits Adotado
-
-O repositório adota a convenção internacional de [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/):
-
-- `feat:` Inclusão de novas implementações de código ou projetos.
-- `docs:` Criação ou enriquecimento de documentações, resumos de aula e listas de exercícios.
-- `refactor:` Melhorias estruturais em código existente sem alterar comportamento funcional.
-- `chore:` Configurações auxiliares, ajustes de `.gitignore` ou manutenção de repositório.
-
----
-
 ## 👨‍💻 Autor
 
 Desenvolvido por **Arthur Silva**  
